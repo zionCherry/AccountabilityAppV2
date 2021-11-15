@@ -28,7 +28,7 @@
         android:textColor="#D7CCC8" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonView"
         android:layout_width="287dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
