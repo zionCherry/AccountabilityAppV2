@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         btnFind.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Find Button is Clicked", Toast.LENGTH_SHORT)
+                Toast.makeText(getApplicationContext(), "Find Group Button is Clicked", Toast.LENGTH_SHORT)
                         .show();
             }
         });
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Create Button is Clicked", Toast.LENGTH_SHORT)
+                Toast.makeText(getApplicationContext(), "Create Group Button is Clicked", Toast.LENGTH_SHORT)
                         .show();
             }
         });
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         btnView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "View Button is Clicked", Toast.LENGTH_SHORT)
+                Toast.makeText(getApplicationContext(), "View Group Button is Clicked", Toast.LENGTH_SHORT)
                         .show();
             }
         });
