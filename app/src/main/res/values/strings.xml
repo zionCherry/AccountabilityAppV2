@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android App V2</string>
+    <string name="find_a_group">Find a Group</string>
+    <string name="create_a_group">Create a Group</string>
+    <string name="view_a_group">View a Group</string>
+    <string name="accountability_together">Accountability Together</string>
+    <string name="working_competitively">Working Competitively</string>
+
+</resources>
