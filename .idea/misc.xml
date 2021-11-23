@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/zionc/AndroidStudioProjects/AndroidAppV2/app/src/main/res/drawable/font.xml" value="0.2703125" />
+        <entry key="..\:/Users/zionc/AndroidStudioProjects/AndroidAppV2/app/src/main/res/layout/activity_create_button_page.xml" value="0.20572916666666666" />
         <entry key="..\:/Users/zionc/AndroidStudioProjects/AndroidAppV2/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/zionc/AndroidStudioProjects/AndroidAppV2/app/src/main/res/layout/activity_main2.xml" value="0.2246376811594203" />
         <entry key="..\:/Users/zionc/AndroidStudioProjects/AndroidAppV2/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/Users/zionc/AndroidStudioProjects/AndroidAppV2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14635416666666667" />
       </map>

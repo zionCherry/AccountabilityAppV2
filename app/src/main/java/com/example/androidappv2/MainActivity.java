@@ -2,6 +2,8 @@ package com.example.androidappv2;
 //nothing crazy just trying to see if this will commit
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btnFind = (Button) findViewById(R.id.buttonFind);
+
+        Button btnFind = findViewById(R.id.buttonFind);
         btnFind.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -23,16 +26,22 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button btnCreate = (Button) findViewById(R.id.buttonCreate);
+        Button btnCreate =  findViewById(R.id.buttonCreate);
         btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Create Group Button is Clicked", Toast.LENGTH_SHORT)
-                        .show();
+                openCreateGroupPage();
+            }
+
+            private void openCreateGroupPage()
+            {
+                Intent openCreate = new Intent(MainActivity.this,Create_Button_Page.class);
+                startActivity(openCreate);
             }
         });
 
-        Button btnView = (Button) findViewById(R.id.buttonView);
+
+        Button btnView =  findViewById(R.id.buttonView);
         btnView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
