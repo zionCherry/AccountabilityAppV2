@@ -56,4 +56,22 @@ public class MainActivity extends AppCompatActivity {
                 Intent openView = new Intent(MainActivity.this,view_button_page.class);
                 startActivity(openView);
             }
-        });}}
+        });
+
+        Button btnRec =  findViewById(R.id.buttonResources);
+        btnRec.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openResourcesPage();
+            }
+
+            private void openResourcesPage()
+            {
+                Intent openRec = new Intent(MainActivity.this,resources_page.class);
+                startActivity(openRec);
+            }
+        });
+
+
+
+    }}
