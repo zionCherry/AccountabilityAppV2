@@ -11,7 +11,7 @@
         android:theme="@style/Theme.AndroidAppV2">
         <activity
             android:name=".goal_submission_page"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".view_button_page"
             android:exported="true" />
