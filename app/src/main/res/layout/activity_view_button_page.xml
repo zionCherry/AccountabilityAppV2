@@ -6,11 +6,56 @@
     android:layout_height="match_parent"
     tools:context=".view_button_page">
 
-<TextView
-android:id="@+id/textView"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:text="Find Page"
-android:layout_centerVertical="true"
-android:layout_centerHorizontal="true"  />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="565dp"
+        android:text="Current Groups" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="500dp"
+        android:text="Scroll Bar With Current Groups as Buttons" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="400dp"
+        android:text="Group Name" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="375dp"
+        android:text="Number in Group" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="350dp"
+        android:text="Group Points" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="325dp"
+        android:text="View Group"
+        android:textColor="#D7CCC8" />
+
+
+
 </RelativeLayout>
