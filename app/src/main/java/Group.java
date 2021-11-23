@@ -1,7 +1,12 @@
 import java.util.ArrayList;
 
-public class Groups{
+public class Group{
+    String GroupName;
     ArrayList<User> GroupMembers = new ArrayList<User>();
+
+    public void Group(String gn){
+        GroupName = gn;
+    }
 
     public void addUser(User newMember){
         GroupMembers.add(newMember);
@@ -17,4 +22,6 @@ public class Groups{
         }
         return GroupMembers.get(pos);
     }
+
+
 }
