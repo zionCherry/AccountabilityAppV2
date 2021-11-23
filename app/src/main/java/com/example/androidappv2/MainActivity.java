@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        //This code deals with the Find a Group Button
         Button btnFind = findViewById(R.id.buttonFind);
         btnFind.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //This code deals with the Create a Group Button
         Button btnCreate =  findViewById(R.id.buttonCreate);
         btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        //This code deals with the View a Group Button
         Button btnView =  findViewById(R.id.buttonView);
         btnView.setOnClickListener(new View.OnClickListener() {
             @Override
