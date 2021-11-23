@@ -22,6 +22,9 @@
             android:name=".MainActivity"
             android:exported="true" />
         <activity
+            android:name=".view_team_button"
+            android:exported="true" />
+        <activity
             android:name=".splash"
             android:exported="true">
             <intent-filter>

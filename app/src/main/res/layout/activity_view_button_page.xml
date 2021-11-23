@@ -47,7 +47,7 @@
         android:layout_marginBottom="350dp"
         android:text="Group Points" />
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonViewGroup"
         android:layout_width="175dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
