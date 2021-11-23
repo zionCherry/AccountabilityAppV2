@@ -21,8 +21,12 @@ public class MainActivity extends AppCompatActivity {
         btnFind.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Find Group Button is Clicked", Toast.LENGTH_SHORT)
-                        .show();
+                openFindGroupPage();
+            }
+            private void openFindGroupPage()
+            {
+                Intent openFind = new Intent(MainActivity.this,find_button_page.class);
+                startActivity(openFind);
             }
         });
 
@@ -45,9 +49,11 @@ public class MainActivity extends AppCompatActivity {
         btnView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "View Group Button is Clicked", Toast.LENGTH_SHORT)
-                        .show();
+                openViewGroupPage();
             }
-        });
-    }
-    }
+            private void openViewGroupPage()
+            {
+                Intent openView = new Intent(MainActivity.this,view_button_page.class);
+                startActivity(openView);
+            }
+        });}}
