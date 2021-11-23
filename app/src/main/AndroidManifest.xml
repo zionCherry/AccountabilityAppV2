@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAppV2">
         <activity
+            android:name=".resources_page"
+            android:exported="true" />
+        <activity
             android:name=".goal_submission_page"
             android:exported="true" />
         <activity
