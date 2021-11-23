@@ -23,5 +23,12 @@ public class Group{
         return GroupMembers.get(pos);
     }
 
-
+    public void removeUser(String nameRem){
+        for(int i = 0; i < GroupMembers.size(); i++) {
+            if ((GroupMembers.get(i)).getUsername().equals(nameRem)) {
+                GroupMembers.remove(i);
+                return;
+            }
+        }
+    }
 }
