@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAppV2">
         <activity
+            android:name=".goal_submission_page"
+            android:exported="false" />
+        <activity
             android:name=".view_button_page"
             android:exported="true" />
         <activity
