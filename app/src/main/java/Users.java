@@ -4,12 +4,12 @@ public class Users {
     int Score;
 
     public void User(String un, String pw){
-        Usernam = un;
-        Password = ow;
-        score = 0;
+        Username = un;
+        Password = pw;
+        Score = 0;
     }
     public String getUsername(){
-        return Usernam;
+        return Username;
     }
 
     public boolean checkPassword(String pw){
