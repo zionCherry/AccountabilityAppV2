@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".view_button_page">
 
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="200dp"
@@ -76,7 +77,7 @@
         android:text="Following this acronyms allow for anyone to achieve whatever goal that they strive for." />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView9"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"

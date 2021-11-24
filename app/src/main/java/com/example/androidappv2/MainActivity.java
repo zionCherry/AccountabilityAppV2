@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //this section handles the background main activity connections
+        //this section handles the connection to the resource page
         Button btnRec =  findViewById(R.id.buttonResources);
         btnRec.setOnClickListener(new View.OnClickListener() {
             @Override
