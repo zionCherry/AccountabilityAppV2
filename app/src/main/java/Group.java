@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Group{
     String GroupName;
+    ArrayList<Task> Tasks = new ArrayList<Task>();
     ArrayList<User> GroupMembers = new ArrayList<User>();
 
     public void Group(String gn){
@@ -23,12 +24,20 @@ public class Group{
         return GroupMembers.get(pos);
     }
 
-    public void removeUser(String nameRem){
+    public void removeUser(User rem){
         for(int i = 0; i < GroupMembers.size(); i++) {
-            if ((GroupMembers.get(i)).getUsername().equals(nameRem)) {
+            if (GroupMembers.get(i) == rem) {
                 GroupMembers.remove(i);
                 return;
             }
         }
+    }
+
+    public void addTask(Task newTask){
+        Tasks.add(newTask);
+    }
+
+    public void TaskComplete(User u, Task t){
+        u.addScore(t.getPoints());
     }
 }
