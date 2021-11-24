@@ -6,4 +6,12 @@ public class Task {
         name = n;
         pointReward = rew;
     }
+
+    public String getTask(){
+        return name;
+    }
+
+    public int getPoints(){
+        return pointReward;
+    }
 }
