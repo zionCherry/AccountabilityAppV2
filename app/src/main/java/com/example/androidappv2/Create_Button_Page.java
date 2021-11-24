@@ -12,3 +12,4 @@ public class Create_Button_Page extends AppCompatActivity {
         setContentView(R.layout.activity_create_button_page);//actually is responsible for changing what page is viewed
     }
 }
+
