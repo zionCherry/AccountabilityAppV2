@@ -37,6 +37,15 @@ public class Group{
         Tasks.add(newTask);
     }
 
+    public void removeTask(Task t){
+        for(int i = 0; i < Tasks.size(); i++){
+            if(Tasks.get(i) == t) {
+                Tasks.remove(i);
+                return;
+            }
+        }
+    }
+
     public void TaskComplete(User u, Task t){
         u.addScore(t.getPoints());
     }
