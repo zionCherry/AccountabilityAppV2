@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="250dp"
+        android:layout_marginBottom="350dp"
         android:text="@string/find_a_group"
         android:textColor="#D7CCC8" />
 
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="250dp"
         android:text="@string/create_a_group"
         android:textColor="#D7CCC8" />
 
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="350dp"
+        android:layout_marginBottom="450dp"
         android:text="@string/view_a_group"
         android:textColor="#D7CCC8" />
 
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="150dp"
         android:text="Resources and Information"
         android:textColor="#D7CCC8" />
 </RelativeLayout>
