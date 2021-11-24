@@ -12,7 +12,7 @@
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="550dp"
+        android:layout_marginBottom="480dp"
         android:ems="10" />
 
     <EditText
@@ -42,7 +42,7 @@
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="450dp"
+        android:layout_marginBottom="420dp"
         android:text="Enter Date" />
 
     <TextView
@@ -51,7 +51,7 @@
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="550dp"
+        android:layout_marginBottom="500dp"
         android:text="Enter Title" />
 
     <TextView
@@ -60,7 +60,7 @@
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="600dp"
+        android:layout_marginBottom="550dp"
         android:text="Add a Goal" />
 
     <TextView
@@ -69,8 +69,8 @@
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="400dp"
-        android:text="Change to Calendar Functionality" />
+        android:layout_marginBottom="320dp"
+        android:text="(Change to Calendar Functionality)" />
 
     <TextView
         android:id="@+id/textView5"
@@ -78,16 +78,16 @@
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="300dp"
+        android:layout_marginBottom="280dp"
         android:text="Enter a Difficulty" />
 
     <EditText
-        android:id="@+id/diffculty"
+        android:id="@+id/difficulty"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="300dp"
+        android:layout_marginBottom="250dp"
         android:ems="10"
         android:inputType="textPassword" />
 
