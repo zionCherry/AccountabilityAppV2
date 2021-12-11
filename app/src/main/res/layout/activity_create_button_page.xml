@@ -14,6 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="500dp"
         android:text="Enter your group name:" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="250dp"
@@ -22,6 +23,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="350dp"
         android:text="Enter how many group members below:" />
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="250dp"
@@ -29,38 +31,38 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="200dp"
-        android:text="Enter the names of the group members below:" />
+        android:text="Describe the groups objective:" />
 
     <EditText
-        android:id="@+id/editTextGroupName"
+        android:id="@+id/editGroupName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="450dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"/>
-
-    <EditText
-        android:id="@+id/editGroupNumber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="number"
-        android:layout_marginBottom="300dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"/>
-
-    <EditText
-        android:id="@+id/editTextGroupMembersNames"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text=""
-        android:layout_marginBottom="150dp"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editGroupNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="300dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editGroupObj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
 
 </RelativeLayout>
