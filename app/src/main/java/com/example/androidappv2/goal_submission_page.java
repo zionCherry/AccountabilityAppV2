@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.util.Calendar;
+
 public class goal_submission_page extends AppCompatActivity {
 
     EditText title;
@@ -29,22 +31,22 @@ public class goal_submission_page extends AppCompatActivity {
         startdate  = findViewById(R.id.start_event);
         enddate = findViewById(R.id.end_event);
         description = findViewById(R.id.description);
-        email = findViewById(R.id.emailtext);
         submitbutton = findViewById(R.id.submitbutton);
 
-        addEvent.setOnClickListener(new View.OnClickListener() {
+        submitbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (!title.getText().toString().isEmpty() && !location.getText().toString().isEmpty()
-                    && !description.getText().toString().isEmpty()) {
+                if (!title.getText().toString().isEmpty()
+                    && !description.getText().toString().isEmpty()
+                        && !email.getText().toString().isEmpty()) {
+
                     Intent intent = new Intent(Intent.ACTION_INSERT);
                     intent.setData(CalendarContract.Events.CONTENT_URI);
-                    intent.putExtra(CalendarContract.Events.TITLE, title.getText().toString());
-                    intent.putExtra(CalendarContract.Events.EXTRA_EVENT_BEGIN_TIME,location.getText().toString());
-                    intent.putExtra(CalendarContract.Events.DESCRIPTION, description.getText().toString());
 
-                    intent.putExtra(CalendarContract.Events.ALL_DAY , true);
-                    intent.putExtra(Intent.EXTRA_EMAIL,  "test@google.com, test@goodgle.com, test@google.com");
+                    intent.putExtra(CalendarContract.Events.TITLE, title.getText().toString());
+                    intent.putExtra(CalendarContract.Events.DESCRIPTION, description.getText().toString());
+                    intent.putExtra(CalendarContract.Events.ALL_DAY,true);
+                    intent.putExtra(Intent.EXTRA_EMAIL,"test@google.com, test@goodgle.com, test@google.com");
 
                     if(intent.resolveActivity(getPackageManager()) !=null){
                         startActivity(intent);
@@ -61,4 +63,3 @@ public class goal_submission_page extends AppCompatActivity {
         });
         };
     }
-}
