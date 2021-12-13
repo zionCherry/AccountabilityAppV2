@@ -3,6 +3,8 @@ package com.example.androidappv2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 public class Create_Button_Page extends AppCompatActivity {
@@ -14,6 +16,8 @@ public class Create_Button_Page extends AppCompatActivity {
     EditText editGroupNum;
     EditText editGroupObj;
 
+    Button submitButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);// creates the instance for the for the state that will be viewed
@@ -23,6 +27,16 @@ public class Create_Button_Page extends AppCompatActivity {
          editGroupNum = (EditText) findViewById(R.id.editGroupNum);
          editGroupObj = (EditText) findViewById(R.id.editGroupObj);
 
+         submitButton = (Button) findViewById(R.id.subButton);
+        submitButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                groupName = editGroupName.getText().toString();
+                groupNum = Integer.valueOf(editGroupNum.getText().toString());
+                groupObj = editGroupObj.getText().toString();
+
+            }
+        });
     }
 }
 
