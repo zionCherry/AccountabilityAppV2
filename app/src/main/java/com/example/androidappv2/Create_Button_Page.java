@@ -11,14 +11,15 @@ import android.widget.EditText;
 public class Create_Button_Page extends AppCompatActivity {
     //this section runs the create button page extension
     //This is the logic to obtain user data from the required fields in the app
-    String groupName, groupObj;
-    int groupNum;
+
 
     EditText editGroupName;
     EditText editGroupNum;
     EditText editGroupObj;
 
     Button submitButton;
+
+    int groupNum = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,9 +33,7 @@ public class Create_Button_Page extends AppCompatActivity {
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                groupName = editGroupName.getText().toString();
-                groupNum = Integer.valueOf(editGroupNum.getText().toString());
-                groupObj = editGroupObj.getText().toString();
+
 
                 openEnterNamesPage(groupNum);
             }
