@@ -7,7 +7,7 @@
     tools:context=".find_button_page">
 
     <EditText
-        android:id="@+id/login"
+        android:id="@+id/title"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
@@ -16,17 +16,27 @@
         android:ems="10" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/start_event"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="400dp"
         android:ems="10"
-        android:inputType="textPassword" />
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/end_event"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="315dp"
+        android:ems="10"
+        android:inputType="text" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/submitbutton"
         android:layout_width="175dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
@@ -43,7 +53,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="420dp"
-        android:text="Enter Date" />
+        android:text="Enter Start Date" />
 
     <TextView
         android:id="@+id/textView2"
@@ -60,38 +70,55 @@
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="550dp"
+        android:layout_marginBottom="575dp"
         android:text="Add a Goal" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/enddate"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="320dp"
-        android:text="(Change to Calendar Functionality)" />
+        android:layout_marginBottom="335dp"
+        android:text="Enter End Date" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="280dp"
-        android:text="Enter a Difficulty" />
 
     <EditText
-        android:id="@+id/difficulty"
+        android:id="@+id/description"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="215dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/descriptiontag"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="250dp"
+        android:text="Enter Description" />
+
+    <TextView
+        android:id="@+id/emailtag"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:text="Enter GroupMates Emails" />
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp"
         android:ems="10"
-        android:inputType="textPassword" />
-
-
-
+        android:inputType="text" />
 
 </RelativeLayout>
