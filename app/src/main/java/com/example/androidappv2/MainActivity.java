@@ -1,5 +1,5 @@
 package com.example.androidappv2;
-//nothing crazy just trying to see if this will commit
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
@@ -10,13 +10,13 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
+    // this is the code that handles the main activity from the main page after the splash
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        //this section handles connecting the main page to the find group page
         Button btnFind = findViewById(R.id.buttonFind);
         btnFind.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(openFind);
             }
         });
-
+        //this section handles connecting the main page to the create group page
         Button btnCreate =  findViewById(R.id.buttonCreate);
         btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        //this section handles connecting the main page to the view group page
         Button btnView =  findViewById(R.id.buttonView);
         btnView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //this section handles the connection to the resource page
         Button btnRec =  findViewById(R.id.buttonResources);
         btnRec.setOnClickListener(new View.OnClickListener() {
             @Override
