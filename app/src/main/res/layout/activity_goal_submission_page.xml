@@ -15,26 +15,6 @@
         android:layout_marginBottom="480dp"
         android:ems="10" />
 
-    <EditText
-        android:id="@+id/start_event"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="400dp"
-        android:ems="10"
-        android:inputType="text" />
-
-    <EditText
-        android:id="@+id/end_event"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="315dp"
-        android:ems="10"
-        android:inputType="text" />
-
     <Button
         android:id="@+id/submitbutton"
         android:layout_width="175dp"
@@ -47,15 +27,6 @@
 
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="420dp"
-        android:text="Enter Start Date" />
-
-    <TextView
         android:id="@+id/textView2"
         android:layout_width="200dp"
         android:layout_height="50dp"
@@ -64,23 +35,7 @@
         android:layout_marginBottom="500dp"
         android:text="Enter Title" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="575dp"
-        android:text="Add a Goal" />
 
-    <TextView
-        android:id="@+id/enddate"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="335dp"
-        android:text="Enter End Date" />
 
 
     <EditText
@@ -101,5 +56,25 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="250dp"
         android:text="Enter Description" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="400dp"
+        android:text="Enter Location" />
+
+    <EditText
+        android:id="@+id/locationtext"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="375dp"
+        android:ems="10"
+        android:inputType="text" />
+
 
 </RelativeLayout>
