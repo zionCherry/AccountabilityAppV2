@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.androidappv2">
-    <!--The section below is responsible for creating the pages/ activities that will be cycled through by the app-->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAppV2">
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/actions" />
+
         <activity
             android:name=".how_to_use_page"
             android:exported="true" />
@@ -35,9 +40,14 @@
             android:exported="true" />
         <activity
             android:name=".splash"
+            android:exported="true"/>
+        <activity
+            android:name=".Goal_Display"
             android:exported="true">
+
             <intent-filter>
-                <!--The section below is responsible for the apps main and launcher So we should not mess with the below section-->
+
+                <!-- The section below is responsible for the apps main and launcher So we should not mess with the below section -->
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />

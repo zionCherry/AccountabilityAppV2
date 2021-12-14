@@ -4,58 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".find_button_page">
+    tools:context=".Goal_Display">
 
-    <EditText
+    <TextView
         android:id="@+id/title"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="480dp"
-        android:ems="10" />
-
-    <Button
-        android:id="@+id/submitbutton"
-        android:layout_width="175dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="55dp"
-        android:text="Submit Goal!"
-        android:textColor="#D7CCC8" />
-
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:layout_marginBottom="500dp"
-        android:text="Enter Title" />
+        android:text="Enter Password" />
 
 
-
-
-    <EditText
-        android:id="@+id/description"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="215dp"
-        android:ems="10"
-        android:inputType="text" />
-
-    <TextView
-        android:id="@+id/descriptiontag"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="250dp"
-        android:text="Enter Description" />
 
     <TextView
         android:id="@+id/location"
@@ -63,19 +23,42 @@
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="400dp"
-        android:text="Enter Location" />
+        android:layout_marginBottom="300dp"
+        android:text="Enter Password" />
 
-    <EditText
-        android:id="@+id/locationtext"
+    <TextView
+        android:id="@+id/description"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="375dp"
-        android:ems="10"
-        android:inputType="text" />
+        android:layout_marginBottom="125dp"
+        android:text="Enter Password" />
 
+    <TextView
+        android:id="@+id/titletag"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="550dp"
+        android:text="Title" />
 
+    <TextView
+        android:id="@+id/locationtag"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="350dp"
+        android:text="Location" />
 
+    <TextView
+        android:id="@+id/descriptiontag"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="175dp"
+        android:text="Description" />
 </RelativeLayout>
