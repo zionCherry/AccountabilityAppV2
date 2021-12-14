@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidAppV2">
         <activity
+            android:name=".Group_Description_Page"
+            android:exported="true" />
+        <activity
             android:name=".enter_groupnames_page"
             android:exported="true" />
         <activity
