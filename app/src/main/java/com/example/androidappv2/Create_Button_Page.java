@@ -51,6 +51,7 @@ public class Create_Button_Page extends AppCompatActivity {
 
 
                 openEnterNamesPage(groupNum);
+
             }
 
             private void openEnterNamesPage(int groupNum)
