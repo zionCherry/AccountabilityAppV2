@@ -8,10 +8,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import java.util.ArrayList;
+
 public class Create_Button_Page extends AppCompatActivity {
     //this section runs the create button page extension
     //This is the logic to obtain user data from the required fields in the app
-
+    String tempGroupName, tempGroupObj;
+    int tempMemNum;
+    public ArrayList <GroupInfo> groupInfoArrayList;
 
     EditText tempEditGroupName;
     EditText tempEditMemNum;
@@ -28,11 +32,21 @@ public class Create_Button_Page extends AppCompatActivity {
         tempEditGroupName = (EditText)  findViewById(R.id.editGroupName);
         tempEditMemNum =  (EditText)  findViewById(R.id.editMemNum);
         tempEditGroupObj =  (EditText)  findViewById(R.id.editGroupObj);
+        String groupName = tempEditGroupName.getText().toString();
+        
         submitButton =      (Button)    findViewById(R.id.subButton);
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                GroupInfo groups = new GroupInfo(); // Max number of Groups is 50
+                tempEditGroupName = (EditText)  findViewById(R.id.editGroupName);
+                tempEditMemNum =  (EditText)  findViewById(R.id.editMemNum);
+                tempEditGroupObj =  (EditText)  findViewById(R.id.editGroupObj);
+
+                tempGroupName = tempEditGroupName.getText().toString();
+                tempMemNum = Integer.valueOf(tempEditMemNum.getText().toString());
+                tempGroupObj = tempEditGroupObj.getText().toString();
+
+                groupInfoArrayList.add(new GroupInfo(tempGroupName, tempMemNum, tempGroupObj));
 
 
 
