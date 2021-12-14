@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".enter_groupnames_page">
 
-
     <TextView
         android:id="@+id/textMem1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="50dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom ="600dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginBottom="700dp"
+        android:layout_centerHorizontal="true"
         android:text="Member #1" />
 
     <EditText
@@ -21,111 +21,130 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="550dp"
-        android:layout_marginHorizontal="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="650dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="" />
 
-    <TextView
-        android:id="@+id/textMem2"
+        <TextView
+            android:id="@+id/textMem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom ="600dp"
+            android:layout_centerHorizontal="true"
+            android:text="Member #2" />
+
+        <EditText
+            android:id="@+id/enterMem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="550dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textMem3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom ="500dp"
+            android:layout_centerHorizontal="true"
+            android:text="Member #3" />
+
+        <EditText
+            android:id="@+id/enterMem3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="450dp"
+            android:layout_marginHorizontal="5dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_centerHorizontal="true"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textMem4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="300dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom ="400dp"
+            android:text="Member #4" />
+
+        <EditText
+            android:id="@+id/enterMem4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="350dp"
+            android:layout_marginHorizontal="250dp"
+            android:ems="10"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textMem5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="300dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom ="300dp"
+            android:layout_centerHorizontal="true"
+            android:text="Member #5" />
+
+
+        <EditText
+            android:id="@+id/enterMem5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="250dp"
+            android:layout_marginHorizontal="250dp"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textMem6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="300dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom ="200dp"
+            android:layout_centerHorizontal="true"
+            android:text="Member #6" />
+
+        <EditText
+            android:id="@+id/enterMem6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="150dp"
+            android:layout_marginHorizontal="250dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_centerHorizontal="true"
+            android:text="" />
+
+    <Button
+        android:id="@+id/subButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="50dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom ="400dp"
-        android:text="Member #2" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="Submit" />
 
-    <EditText
-        android:id="@+id/enterMem2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="350dp"
-        android:layout_marginHorizontal="5dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="" />
-
-    <TextView
-        android:id="@+id/textMem3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom ="200dp"
-        android:text="Member #3" />
-
-    <EditText
-        android:id="@+id/enterMem3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="150dp"
-        android:layout_marginHorizontal="5dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="" />
-
-    <TextView
-        android:id="@+id/textMem4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="300dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom ="600dp"
-        android:text="Member #4" />
-
-    <EditText
-        android:id="@+id/enterMem4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="550dp"
-        android:layout_marginHorizontal="250dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="" />
-
-    <TextView
-        android:id="@+id/textMem5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="300dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom ="400dp"
-        android:text="Member #5" />
-
-
-    <EditText
-        android:id="@+id/enterMem5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="350dp"
-        android:layout_marginHorizontal="250dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="" />
-
-    <TextView
-        android:id="@+id/textMem6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="300dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom ="200dp"
-        android:text="Member #6" />
-
-    <EditText
-        android:id="@+id/enterMem6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="150dp"
-        android:layout_marginHorizontal="250dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="" />
-
-</RelativeLayout>
+    </RelativeLayout>

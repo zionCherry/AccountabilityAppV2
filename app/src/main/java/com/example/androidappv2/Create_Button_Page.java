@@ -33,12 +33,12 @@ public class Create_Button_Page extends AppCompatActivity {
         tempEditMemNum =  (EditText)  findViewById(R.id.editMemNum);
         tempEditGroupObj =  (EditText)  findViewById(R.id.editGroupObj);
         String groupName = tempEditGroupName.getText().toString();
-        
+
         submitButton =      (Button)    findViewById(R.id.subButton);
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                tempEditGroupName = (EditText)  findViewById(R.id.editGroupName);
+                /*tempEditGroupName = (EditText)  findViewById(R.id.editGroupName);
                 tempEditMemNum =  (EditText)  findViewById(R.id.editMemNum);
                 tempEditGroupObj =  (EditText)  findViewById(R.id.editGroupObj);
 
@@ -46,15 +46,14 @@ public class Create_Button_Page extends AppCompatActivity {
                 tempMemNum = Integer.valueOf(tempEditMemNum.getText().toString());
                 tempGroupObj = tempEditGroupObj.getText().toString();
 
-                groupInfoArrayList.add(new GroupInfo(tempGroupName, tempMemNum, tempGroupObj));
+                groupInfoArrayList.add(new GroupInfo(tempGroupName, tempMemNum, tempGroupObj)); */
 
+                openEnterNamesPage();
 
-
-                openEnterNamesPage(groupNum);
 
             }
 
-            private void openEnterNamesPage(int groupNum)
+            private void openEnterNamesPage()
             {
                 Intent openGroupNames = new Intent(Create_Button_Page.this,enter_groupnames_page.class);
                 startActivity(openGroupNames);
