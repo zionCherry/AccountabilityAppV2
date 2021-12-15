@@ -48,6 +48,15 @@
         android:layout_marginBottom="150dp"
         android:text="Resources and Information"
         android:textColor="#D7CCC8" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="117dp"
+        android:layout_height="110dp"
+        android:layout_alignParentEnd="true"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
 </RelativeLayout>
 
 
