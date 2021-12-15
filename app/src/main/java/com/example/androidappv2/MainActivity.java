@@ -7,11 +7,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     // this is the code that handles the main activity from the main page after the splash
-    //making sure this commits to the right plac
+    //making sure this commits to the right place
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,6 +76,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //this section handles the connection to the user profile page
+
+
+        ImageButton btnUser =  (ImageButton) findViewById(R.id.userButton);
+        btnUser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openUserProfilePage();
+            }
+            private void openUserProfilePage()
+            {
+                Intent openUser = new Intent(MainActivity.this,user_profile_Page.class);
+                startActivity(openUser);
+            }
+        });
 
 
     }}

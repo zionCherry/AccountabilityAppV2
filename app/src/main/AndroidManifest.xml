@@ -25,6 +25,9 @@
             android:name=".Create_Button_Page"
             android:exported="true" />
         <activity
+            android:name=".user_profile_Page"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" />
         <activity
