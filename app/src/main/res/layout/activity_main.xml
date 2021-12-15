@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="350dp"
+        android:layout_marginBottom="300dp"
         android:text="@string/find_a_group"
         android:textColor="#D7CCC8" />
 
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="250dp"
+        android:layout_marginBottom="200dp"
         android:text="@string/create_a_group"
         android:textColor="#D7CCC8" />
 
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="450dp"
+        android:layout_marginBottom="400dp"
         android:text="@string/view_a_group"
         android:textColor="#D7CCC8" />
 
@@ -45,24 +45,25 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="100dp"
         android:text="Resources and Information"
         android:textColor="#D7CCC8" />
 
     <ImageButton
         android:id="@+id/userButton"
-        android:layout_width="117dp"
-        android:layout_height="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:src="@drawable/icon100" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:paddingTop="110dp"
-        android:textSize="24sp"
-        android:text="User Profile" />
+        android:text="User Profile"
+        android:textSize="24sp" />
 
 </RelativeLayout>
 
