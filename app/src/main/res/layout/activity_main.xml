@@ -54,6 +54,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
+        android:paddingRight="5dp"
+        android:background="@null"
         tools:src="@drawable/icon100" />
 
     <TextView
@@ -61,8 +63,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:paddingTop="110dp"
-        android:text="User Profile"
+        android:paddingTop="90dp"
+        android:text="PROFILE "
         android:textSize="24sp" />
 
 </RelativeLayout>
